@@ -1,0 +1,29 @@
+# %sudo apt-get install poppler-utils tesseract-ocr libmagic-dev
+# %pip install -Uq "unstructured[all-docs]" pillow lxml pillow
+# %pip install -Uq chromadb tiktoken
+# %pip install -Uq langchain langchain-community langchain-openai langchain-groq
+# %pip install -Uq python_dotenv
+
+
+sudo apt update
+sudo apt install poppler-utils tesseract-ocr libmagic-dev
+
+Creating requirements file
+unstructured[all-docs]
+pillow
+lxml
+chromadb
+tiktoken
+langchain
+langchain-community
+langchain-openai
+langchain-groq
+python-dotenv
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+sudo apt-get install ffmpeg libsm6 libxext6  -y
+
